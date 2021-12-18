@@ -66,7 +66,7 @@ void ShowWebView() {
     webView.Frame = new Rect(0, 0, Screen.width, Screen.height);
 
     // Allow transparency clicking through.
-    webView.SetTransparencyClickingThroughEnabled(true);
+    //webView.SetTransparencyClickingThroughEnabled(true);
     // Make Unity scene visible.
     webView.BackgroundColor = Color.clear;
 
